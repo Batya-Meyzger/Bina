@@ -1,0 +1,7 @@
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\bin\Debug\HangmanGame.exe.config
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\bin\Debug\HangmanGame.exe
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\bin\Debug\HangmanGame.pdb
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\obj\Debug\HangmanGame.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\obj\Debug\HangmanGame.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\obj\Debug\HangmanGame.exe
+C:\Users\owner\Desktop\כלי בינה\lesson 1\home_work_1\HangmanGame\obj\Debug\HangmanGame.pdb
