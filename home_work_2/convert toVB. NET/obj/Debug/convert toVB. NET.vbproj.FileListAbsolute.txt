@@ -1,0 +1,4 @@
+C:\Users\owner\Desktop\כלי בינה\lesson_2\convert toVB. NET\obj\Debug\convert toVB. NET.vbproj.AssemblyReference.cache
+C:\Users\owner\Desktop\כלי בינה\lesson_2\convert toVB. NET\obj\Debug\convert_toVB.NET.Resources.resources
+C:\Users\owner\Desktop\כלי בינה\lesson_2\convert toVB. NET\obj\Debug\convert toVB. NET.vbproj.GenerateResource.cache
+C:\Users\owner\Desktop\כלי בינה\lesson_2\convert toVB. NET\obj\Debug\convert toVB. NET.vbproj.CoreCompileInputs.cache

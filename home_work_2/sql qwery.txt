@@ -1,0 +1,3 @@
+SELECT Name
+FROM Employees
+WHERE City = 'Jerusalem';
