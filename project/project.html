@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ספר המתכונים המדבר</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body class="dark-mode">
+    <audio id="bgMusic" loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    <div class="music-control">
+    <button id="musicToggle" onclick="toggleMusic()">🔇 השתק מוזיקה</button>
+</div>
+
+    <section id="loginScreen" class="screen">
+        <h1>כניסה למערכת</h1>
+        <input type="text" id="username" placeholder="שם משתמש">
+        <input type="password" id="password" placeholder="סיסמה">
+        <button onclick="login()">כניסה</button>
+    </section>
+
+    <section id="listScreen" class="screen hidden">
+        <header>
+            <button onclick="showScreen('settingsScreen')">⚙️ הגדרות</button>
+            <input type="text" id="searchBar" placeholder="חפש מתכון..." oninput="renderRecipes()">
+        </header>
+        <h2>המתכונים שלי</h2>
+        <div id="recipeList" class="recipe-grid"></div>
+        <button class="add-btn" onclick="addNewRecipe()">+ הוסף מתכון</button>
+    </section>
+
+    <section id="settingsScreen" class="screen hidden">
+        <h2>הגדרות אישיות</h2>
+        <label>המתנה בין שורות (שניות):</label>
+        <input type="number" id="pauseInput" value="2">
+        <label>ערכת נושא:</label>
+        <select id="themeSelect" onchange="toggleTheme()">
+            <option value="dark">כהה</option>
+            <option value="light">בהיר</option>
+        </select>
+        <button onclick="showScreen('listScreen')">חזרה לרשימה</button>
+    </section>
+
+    <section id="recipeDetailScreen" class="screen hidden">
+        <div id="recipeContent"></div>
+        <div class="controls">
+            <button id="speakBtn" onclick="toggleSpeech()">הקרא מתכון</button>
+            <button onclick="stopSpeech()">עצור</button>
+            <button onclick="showScreen('listScreen')">חזור</button>
+        </div>
+    </section>
+
+    <script src="project.js"></script>
+</body>
+</html>
